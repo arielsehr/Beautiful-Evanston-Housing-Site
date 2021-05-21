@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+<head>
+	
+<!--
+Beautiful Evanston Housing Website
+Ariel Sehr
+May 2020
+Filename: Tours.html
+-->
+	
+<meta charset="UTF-8">
+<meta name="keywords" content="Evanston apartments, housing, Northwestern, student housing">
+	
+	
+<title>Tour Our Properties</title>
+
+<style>
+
+	html {
+   background-color: #D96C6C;
+   font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+	}
+	
+	body {background-color: #D96C6C;
+			color:#f0f1e5;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+			max-width: 960px;
+	min-width: 640px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+	ul {
+		  list-style-type: none;
+  		margin: 0px;
+  		padding: 0;
+  		overflow: hidden;
+  		background-color: #628C23;
+	}
+	
+	li {
+		float: left;
+		width: 20%;
+	}
+	
+	li a {
+  		display: block;
+ 		color: #f0f1e5;
+ 		text-align: center;
+ 		padding: 14px 16px;
+  		text-decoration: none;
+	}
+	
+	footer {
+	display: block;
+	clear:left;
+	text-align: center;
+	font-weight: bold;
+}
+	
+	form {
+		display: block;
+		padding: 10px;
+		background-color: #F2CED5;
+		color: #D96C6C;
+	}
+	
+	form > input {
+	}
+
+	
+	</style>
+	
+</head>
+<body>
+	<header>
+	<img src="homepage-header.png" alt="homepageheader">
+	<nav class="pagesNav"> 
+		<ul>
+			<li>
+				<a href="../homepage.html">Home</a>
+			</li>
+			<li>
+				<a href="Properties.html">Our Listings</a>
+			</li>
+			<li>
+				<a href="Tours.html">Arrange a Tour</a>
+			</li>
+			<li>
+				<a href="Evanston.html">Around Evanston</a>
+			</li>
+			<li>
+				<a href="Apply.html">Apply Now</a>
+			</li>
+		</ul>
+		</nav>
+	</header>
+		
+	<h1>Come see our beautiful properties for yourself.</h1>
+	<p>We are currently showing apartments and homes available for rent starting in 2021. Use the form below to tell us a little bit about yourself and your rental needs, and we'll reach out to you to schedule a tour. </p>
+	
+	
+	
+<form id="myForm">
+<h2>Schedule a Tour</h2>
+	
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"> <br><br>
+	
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br><br>
+	
+	<label for="phone">Phone #:</label><br>
+  <input type="phone" id="phone" name="phone"> <br><br>
+	
+  <label for="email">Email: </label><br>
+  <input type="email" id="email" name="email"><br><br>
+
+
+
+
+	<label for="bedrooms">How many bedrooms are you interested in? </label><br>
+  <input type="number" id="bedrooms" name="bedrooms" min= "2" max="8"><br><br>
+	
+
+	 <label for="northwesternstud" value="Student">Are you affiliated with Northwestern?</label><br>
+  <input type="radio" id="northwestern" name="northwestern">
+	Yes, I am a Northwestern student.<br>
+  <input type="radio" id="nwstaff" name="nwstaff">
+	Yes, I am a Northwestern professor or staff member.<br>
+	  <input type="radio" id="nono" name="nono">
+	No, I am not affiliated with Northwestern.<br><br>
+	
+	<label for="visit">When do you want to move in?</label><br>
+	<input name="visitDate" id="visit" type="date" />
+		
+	<br><br>
+  <input type="image" img src="Apply Now.png" value="Submit" width="150">
+</form>
+
+	
+<!-- JAVASCRIPT FOR SUBMIT BUTTON -->
+	
+<script>
+	document.getElementById("myForm").onsubmit = function() {thanksMsg()};
+	function thanksMsg() {
+		alert("Thank you for completing our interest form! We will reach out to you soon to schedule a tour.");
+	}
+</script>	
+
+	<footer>
+	<a href="../homepage.html">
+		<img src="footer-logo.png" alt="logo">
+		<br/>
+		</a> • Beautiful Evanston Housing • <br/>
+	<a href="tel:18477122111"> (847) 712-2111 </a> • 
+	<a href="mailto:beautifulevanstonhousing@gmail.com">beautifulevanstonhousing@gmail.com</a>
+	</footer>
+
+</body>
+	
+</html>

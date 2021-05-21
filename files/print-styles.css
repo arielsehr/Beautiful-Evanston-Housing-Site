@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* Print Style Sheet for Evanston Map Page */
+
+@page {
+	size: 8.5in 11in;
+	margin: 0.5in;
+}
+
+/* Hidden  */
+nav.pagesNav, header, footer {
+	display: none;
+}
+
+
+/* Fonts */
+h1 {
+	font-size: 28pt;
+	line-height: 30pt;
+	margin: 0.3in 0in 0.2in;
+}
+
+p {
+	font-size: 12pt;
+	margin: 0.1in 0in 0.1in 0.3in;
+}
+
+
+/* Map */
+#etown {
+	display: block;
+	margin: 0.25in auto;
+	width: 65%;
+}
+
+
+/* Page Break Styles */
+	
+p {
+	orphans: 3;
+	widows: 3;
+}
+
+
+
+

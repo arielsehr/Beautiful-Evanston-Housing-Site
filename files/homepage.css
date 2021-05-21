@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+/*
+
+CSS for Homepage/Most Pages for Beautiful Evanston Housing
+
+*/
+
+/* HTML and Body Styles */
+
+html {
+   background-color: #D96C6C;
+   font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+
+body {
+   background-color: #D96C6C;
+	color: #f0f1e5;
+}
+
+
+/* Body Styles */
+body {
+	max-width: 960px;
+	min-width: 640px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* Body Header Styles */
+nav.pagesNav > ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #628C23;
+}
+
+nav.pagesNav > ul > li {
+  float: left;
+  width: 20%;
+}
+
+nav.pagesNav > ul > li a {
+  display: block;
+  color: #f0f1e5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav.pagesNav > ul > li a:hover {
+  background-color: #F2CED5;
+}
+
+/* Footer Styles */
+
+footer {
+	display: block;
+	text-align: center;
+	font-weight: bold;
+}

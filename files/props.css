@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* Property Listing Styles */
+nav.propsNav > ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  background-color: #333;
+  width: 100%;
+}
+
+nav.propsNav > ul > li {
+	/* placeholder */
+}
+
+nav.propsNav > ul > li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav.propsNav > ul > li a:hover {
+  background-color: #628C23;
+}
+
+th {
+	width: 150px;
+}
+
+td {
+	
+text-align: center;
+}
+
+table {
+	background: #628C23;
+	margin-left: auto;
+	margin-right: auto;
+	border: double #F2CED5;
+}
+
